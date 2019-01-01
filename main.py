@@ -20,7 +20,7 @@ f_3.pack(fill='both')
 
 
 # Set Button&Entry 按钮&输入框
-# 初始化两个变量，一个整形，一个字符串。继承自 tkinter 内置的类。
+# 初始化两个变量，一个整形，一个字符串。是 tkinter 内置的类的两个实例。
 
 var_entry = IntVar()
 bottom_text = StringVar()
