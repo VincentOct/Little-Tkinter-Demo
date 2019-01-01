@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 from random import *
 from copy import deepcopy
-from all_results import *  # 需要现实的所有可能结果已经保存在了 all_results.py 中，这里直接 import 进来
+from all_results import *  # 所有可能结果已经提前保存在了 all_results.py 中，这里直接 import 进来
 
 all_results = tuple(all_results)
 root = Tk()
